@@ -27,12 +27,40 @@ public class PTra05_04 {
 
 		String line = scanner.nextLine();
 
-		switch(line) {
-			case "0":
-				System.out.println("日曜");
-				break;
-			case "1":
-				System.out.println("月曜");
+		boolean ok = false;
+
+		while(!ok) {
+
+			switch(line) {
+				case "0":
+					System.out.println("日曜");
+					ok = true;
+					break;
+				case "1":
+					System.out.println("月曜");
+					ok = true;
+					break;
+				case "2":
+					System.out.println("火曜");
+					ok = true;
+					break;
+				case "3":
+					System.out.println("水曜");
+					ok = true;
+					break;
+				case "4":
+					System.out.println("木曜");
+					ok = true;
+					break;
+				case "5":
+					System.out.println("金曜");
+					ok = true;
+					break;
+				case "6":
+					System.out.println("土曜");
+					ok = true;
+					break;
+			}
 		}
 	}
 }
