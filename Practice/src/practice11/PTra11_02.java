@@ -25,8 +25,8 @@ public class PTra11_02 {
 
 			  String str = line;
 
-		        if (str.contains(books[i].title))
-		        {
+		        if (str.contains(books[i].title)) {
+		        	
 		            System.out.println(books[i].title);
 		        }
 
