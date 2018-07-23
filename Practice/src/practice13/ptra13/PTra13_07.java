@@ -41,6 +41,26 @@ public class PTra13_07 {
 		 * 上記を繰り返し行います
 		 */
 
+		int go1 = tuyoi.attack();
+		int go2 = slime.attack();
+
+		while(true) {
+
+
+			boolean sura = slime.damage(go1);
+
+			if(sura) {
+				System.out.println(tuyoi.getName() + "は" + slime.getName() + "との戦闘に勝利した");
+				break;
+			}
+
+			boolean yuu = tuyoi.damage(go2);
+
+			if(yuu) {
+				System.out.println( slime.getName()+ "は" + tuyoi.getName() + "との戦闘に勝利した");
+				break;
+			}
+		}
 
 		// ★ 勝利した方の出力を行ってください。「○○は■■との戦闘に勝利した」
 
