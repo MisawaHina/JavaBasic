@@ -25,5 +25,6 @@ public class Java2Month extends Room {
 			};
 
 		return array;
+
 	}
 }

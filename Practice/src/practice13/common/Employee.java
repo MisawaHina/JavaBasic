@@ -28,4 +28,14 @@ public class Employee extends Person {
 	public void setDepartmentCnt(int departmentCnt) {
 		this.departmentCnt = departmentCnt;
 	}
+
+
+	public String toString() {
+
+		return "name:" + this.userNm + "\n" +
+				"mail:" + this.mail + "\n" +
+				"pass:" + this.password + "\n" +
+				"部署データ:" + this.departmentNm + "/" + this.departmentCnt;
+
+	}
 }
