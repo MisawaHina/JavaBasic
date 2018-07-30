@@ -47,32 +47,28 @@ public class PTra05_03 {
 			 */
 
 			switch (line) {
-				case "山":
-					System.out.println(mountain = 1 + mountain);
-					break;
-				case "川":
-					System.out.println(iver = 1 + iver);
-					break;
-				case "海":
-					System.out.println(ocean = 1 + ocean);
-					break;
-				default:
-					System.out.println("無効票です");
-
+			case "山":
+				mountain = 1 + mountain;
+				break;
+			case "川":
+				iver = 1 + iver;
+				break;
+			case "海":
+				ocean = 1 + ocean;
+				break;
+			default:
+				System.out.println("無効票です");
 			}
-
-
 
 			// ★ 変数indexに1を足して、変数indexに代入してください
 
-			index = index + 1;
+			index++;
 		}
 
 		// ★ 変数mountain、river、oceanの票数をそれぞれ出力してください
 
-		System.out.println(mountain);
-		System.out.println(iver);
-		System.out.println(ocean);
-
+		System.out.println("山:" + mountain);
+		System.out.println("川:" + iver);
+		System.out.println("海:" + ocean);
 	}
 }

@@ -13,10 +13,8 @@ public class PTra02_03 {
 
 		// ★ 演算の評価の順番を変更して、num2に140が入るようにしてください(先に足し算が行われるよう変更)
 		int num2 = (20 + num1) * 2;
-		System.out.println(num2);
 
 		// 140が表示されること
-		num2 = 140;
 		System.out.println(num2);	// ※※ この行は修正しないでください
 	}
 }

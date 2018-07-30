@@ -9,6 +9,7 @@ package practice18;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class PTra18_04 {
@@ -25,7 +26,7 @@ public class PTra18_04 {
 		 * ★ ArrayListを作成して、Playerインスタンスを格納してください
 		 */
 
-		ArrayList<Player> array = new ArrayList<>();
+		ArrayList<Player> array3 = new ArrayList<>();
 
 		try (Scanner scanner = new Scanner(new File("file/BestElevenCandidate.csv"))) {
 
@@ -40,7 +41,7 @@ public class PTra18_04 {
 				p.setCountry(a[2]);
 				p.setTeam(a[3]);
 
-				array.add(p);
+				array3.add(p);
 
 			}
 		} catch (FileNotFoundException e) {
@@ -49,5 +50,44 @@ public class PTra18_04 {
 
 		// ★ ①のArrayListの中からGK1名、DF4名、MF4名, FW2名をランダムで出力してください
 
+		for (int i = 0; i < array3.size(); i++) {
+
+			while (i < 1) {
+				Collections.shuffle(array3);
+
+				if (array3.get(i).getPosition().equals("GK")) {
+					System.out.println(array3.get(i));
+					break;
+				}
+			}
+
+			while (i < 4) {
+				Collections.shuffle(array3);
+
+				if (array3.get(i).getPosition().equals("DF")) {
+					System.out.println(array3.get(i));
+					break;
+				}
+			}
+
+			while (i < 4) {
+				Collections.shuffle(array3);
+
+				if (array3.get(i).getPosition().equals("MF")) {
+					System.out.println(array3.get(i));
+					break;
+				}
+			}
+
+			while (i < 2) {
+				Collections.shuffle(array3);
+
+				if (array3.get(i).getPosition().equals("FW")) {
+					System.out.println(array3.get(i));
+					break;
+				}
+			}
+
+		}
 	}
 }

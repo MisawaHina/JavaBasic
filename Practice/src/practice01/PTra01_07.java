@@ -31,8 +31,8 @@ public class PTra01_07 {
 		d = 3.9;
 
 		// ★ それぞれの変数の中身を出力してください
-		System.out.println(true);
-		System.out.println(3);
+		System.out.println(bo);
+		System.out.println(by);
 		System.out.println(s);
 		System.out.println(c);
 		System.out.println(i);

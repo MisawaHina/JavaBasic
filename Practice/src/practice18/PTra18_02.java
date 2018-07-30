@@ -62,8 +62,7 @@ public class PTra18_02 {
 		// ★ ArrayListに格納されているインスタンス全てのtoStringメソッドを実行し、出力してください
 		// ※ できれば拡張for文を使いましょう
 		for (Player mozi : array) {
-			String str = mozi.toString();
-			System.out.println(str);
+			System.out.println(mozi);
 		}
 
 	}
