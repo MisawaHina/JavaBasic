@@ -20,15 +20,15 @@ public class PTra06_05 {
 		 * ■■■■■
 		 */
 
-		for(int a = 1; a <= 5; a++) {
+		for (int a = 0; a < 5; a++) {
 
-			for(int b =1; b <= 5; b++) {
+			for (int b = 0; b < 5; b++) {
 
 				System.out.print("■");
 
 			}
 
-				System.out.println();
+			System.out.println();
 
 		}
 	}

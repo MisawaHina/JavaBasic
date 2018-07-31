@@ -25,35 +25,35 @@ public class PTra06_07 {
 		 * ■□□□□
 		 */
 
-		for(int a = 1; a <= 10; a++) {
+		for (int a = 0; a < 10; a++) {
 
-			for(int b = 1; b <= 5; b++) {
+			for (int b = 0; b < 5; b++) {
 
-				if(a == 2 && b <= 1) {
+				if (a == 1 && b < 1) {
 					System.out.print("■");
 
-				} else if(a == 3 && b <= 2) {
+				} else if (a == 2 && b < 2) {
 					System.out.print("■");
 
-				} else if(a == 4 && b <= 3) {
+				} else if (a == 3 && b < 3) {
 					System.out.print("■");
 
-				} else if(a == 5 && b <= 4) {
+				} else if (a == 4 && b < 4) {
 					System.out.print("■");
 
-				} else if(a == 6 && b <= 5) {
+				} else if (a == 5 && b < 5) {
 					System.out.print("■");
 
-				} else if(a == 7 && b <= 4) {
+				} else if (a == 6 && b < 4) {
 					System.out.print("■");
 
-				} else if(a == 8 && b <= 3) {
+				} else if (a == 7 && b < 3) {
 					System.out.print("■");
 
-				} else if(a == 9 && b <= 2) {
+				} else if (a == 8 && b < 2) {
 					System.out.print("■");
 
-				} else if(a == 10 && b <= 1) {
+				} else if (a == 9 && b < 1) {
 					System.out.print("■");
 
 				} else {
@@ -65,6 +65,5 @@ public class PTra06_07 {
 			System.out.println();
 
 		}
-
 	}
 }

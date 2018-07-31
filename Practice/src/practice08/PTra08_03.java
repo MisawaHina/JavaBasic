@@ -13,7 +13,6 @@ public class PTra08_03 {
 
 		int number = new java.util.Random().nextInt(100);
 
-
 		// ★ 変数resultを宣言し、メソッドisEvenNumberを（変数number）で呼び出した結果を代入してください
 
 		boolean result = isEvenNumber(number);
@@ -35,12 +34,10 @@ public class PTra08_03 {
 	 * 引数で渡された内容が偶数ならtrue、奇数ならfalseを返すメソッド
 	 */
 
-		public static boolean isEvenNumber(int x) {
-
-			boolean number = x % 2 == 0;
-
-			return number;
-
+	public static boolean isEvenNumber(int x) {
+		if (x % 2 == 0) {
+			return true;
 		}
-
+		return false;
+	}
 }

@@ -13,15 +13,11 @@ public class PTra07_04 {
 
 		int[] trump = new int[52];
 
-
 		// ★ 配列trumpに、[1,2,3,4,5,・・・・,52] を代入してください
 
-		for(int a = 0; a < 52; a++) {
-
-			trump[a] = (a + 1);
-
+		for (int i = 0; i < trump.length; i++) {
+			trump[i] = i + 1;
 		}
-
 
 		// ★ 0～51の中からランダムで値を取得して、変数indexに代入してください
 
