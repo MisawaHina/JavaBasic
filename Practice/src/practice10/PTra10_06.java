@@ -42,33 +42,31 @@ public class PTra10_06 {
 		//int sum = 0;
 		//int count = 0;
 
-		for(int i = 0; i < cars.length; i++ ) {
+		for (int i = 0; i < cars.length; i++) {
 
 			int sum = 0;
 			int count = 0;
 
-			while(true) {
+			while (true) {
 
 				int n = cars[i].run();
 				count++;
 
-				if(n < 0) {
+				if (n < 0) {
 					System.out.println("目的地に到達できませんでした");
 					break;
 				}
 
 				sum += n;
 
-				if(distance < sum) {
+				if (distance < sum) {
 
-					System.out.println("目的地にまで" + count + "時間かかりました。残りのガソリンは、" + cars[i].color + cars[i].gasoline + "リットルです");
+					System.out.println(
+							"目的地にまで" + count + "時間かかりました。残りのガソリンは、" + cars[i].color + cars[i].gasoline + "リットルです");
 					break;
 
 				}
-
 			}
-
 		}
-
 	}
 }

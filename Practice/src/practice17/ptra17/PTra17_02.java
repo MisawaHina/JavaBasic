@@ -14,7 +14,7 @@ public class PTra17_02 {
 	public static void main(String[] args) {
 		try {
 			dispInput();
-		} catch(Exception e) {
+		} catch (Exception e) {
 			System.out.println("例外が発生しました");
 		}
 	}
@@ -28,6 +28,8 @@ public class PTra17_02 {
 		 */
 
 		String line = ThrowExceptionUtil.inputValue();
+
+		System.out.println(line);
 
 	}
 }

@@ -23,11 +23,7 @@ public class PTra16_03 {
 
 		// ★ PTra16_03クラスのtoStringメソッドの内容を出力してください
 
-		PTra16_03 ptre = new PTra16_03();
-
-		String a = ptre.toString();
-
-		System.out.println(a);
+		System.out.println(new PTra16_03().toString());
 
 	}
 }

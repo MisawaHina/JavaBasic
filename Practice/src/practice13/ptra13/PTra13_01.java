@@ -24,8 +24,6 @@ public class PTra13_01 extends Animal {
 
 		ptra.setName("人");
 
-		System.out.println(ptra.getName());
-
 		// ★ PTra13_01の持つインスタンスメソッドrunとbreathを実行してしてください
 
 		ptra.run();
@@ -35,4 +33,3 @@ public class PTra13_01 extends Animal {
 	}
 
 }
-

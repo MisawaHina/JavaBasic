@@ -26,9 +26,7 @@ public class PTra13_02 {
 
 		// ★ common.Heroインスタンスのキャラクター情報を表示してください
 
-		String kyara = hero.showParameter();
-
-		System.out.println(kyara);
+		System.out.println(hero.showParameter());
 
 	}
 }
